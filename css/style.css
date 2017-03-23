@@ -83,11 +83,13 @@ background-color: #dddddd;
 .clearfix{
   display: -webkit-flex;
   display: flex;
-  text-align: center;
+  justify-content: center; 
 }
 @media (max-width: 768px) {
   .clearfix{
     flex-direction: column;
+    align-items: center;
+    
   }
 }
 @media (max-width: 768px) {
@@ -101,3 +103,9 @@ background-color: #dddddd;
 #copyright{
   text-align: center;
 }
+@media (max-width: 768px) {
+  .merit{
+    width:80%;
+    
+  }
+  }
